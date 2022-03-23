@@ -1,0 +1,10 @@
+- op: replace
+  path: /spec/template/spec/containers/0/env/0
+  value:
+    name: var1
+    value: VALUE_1
+- op: add
+  path: /spec/template/spec/containers/0/env/0
+  value:
+    name: var2
+    value: VALUE_2
